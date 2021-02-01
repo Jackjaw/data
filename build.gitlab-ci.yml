@@ -1,7 +1,0 @@
-image: maven:3.6.3-jdk-11-slim
-stages:
-  - build
-
-job 1:
-  stage: install
-  script: mvn clean install
